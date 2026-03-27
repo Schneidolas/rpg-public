@@ -75,10 +75,6 @@ const html5QrcodeScanner = new Html5QrcodeScanner(
   {
     fps: 10,
     qrbox: 250,
-    // ESTA LINHA HABILITA O UPLOAD DE IMAGEM!
-    experimentalFeatures: {
-        useFileFromDropBox: true 
-    }
   },
   /* verbose= */ false
 );
