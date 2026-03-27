@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>RPG - Perfil de Jogador</title>
+    <script src="https://unpkg.com/html5-qrcode"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsencrypt/3.3.2/jsencrypt.min.js"></script>
+    <style>
+        body { background: #000; color: #fff; font-family: 'Courier New', monospace; text-align: center; }
+        #reader { width: 300px; margin: 20px auto; border: 2px solid #0f0; }
+        .perfil { display: none; padding: 20px; border: 1px solid #444; margin: 20px; }
+        .insignia { width: 50px; height: 50px; margin: 5px; }
+    </style>
+</head>
+<body>
+
+    <div id="login-screen">
+        <h1>[ ACESSO AO PERFIL ]</h1>
+        <p>Apresente seu Cartão QR para o scanner</p>
+        <div id="reader"></div>
+    </div>
+
+    <div id="perfil-jogador" class="perfil">
+        <h1 id="p-nome"></h1>
+        <h3 id="p-titulo"></h3>
+        <p>Nível: <span id="p-nivel"></span> | ELO: <span id="p-elo"></span></p>
+        <div id="p-insignias"></div>
+        <!-- O resto do seu brainstorm de perfil vai aqui -->
+        <button onclick="location.reload()">Sair</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+{
+  "players": [
+    {
+      "id": "player_schneider",
+      "nome": "Schneider",
+      "nivel": 1,
+      "xp": 0,
+      "moedas": 0,
+      "tickets": 0,
+      "elo": 1000,
+      "insignias": [],
+      "conquistas": {},
+      "estrelas_raspadinha": {},
+      "inventario_tcg": {
+        "card_1774636114554": 1
+      },
+      "fragmentos_colecionaveis": {},
+      "personalizacao": {
+        "cor_nome": "#ff0000",
+        "titulo": "O Criador do Caos"
+      }
+    }
+  ],
+  "conquistas": [
+    {
+      "id": "conq_001",
+      "nome": "Primeiros Passos",
+      "descricao": "Participe de sua primeira sessão de RPG.",
+      "imagem": "/conquistas/primeiros_passos.png",
+      "tipos": [
+        "normal"
+      ]
+    },
+    {
+      "id": "conq_002",
+      "nome": "Colecionador de Lixo",
+      "descricao": "Junte 50 itens inúteis durante as campanhas.",
+      "imagem": "/conquistas/colecionador.png",
+      "tipos": [
+        "progresso",
+        "rara"
+      ],
+      "progresso_max": 50
+    },
+    {
+      "id": "conq_003",
+      "nome": "???",
+      "descricao": "???",
+      "imagem": "/conquistas/placeholder.png",
+      "tipos": [
+        "secreta"
+      ],
+      "nome_real": "Achei o Easter Egg",
+      "descricao_real": "Encontrou a piada interna que o DM escondeu no cenário.",
+      "imagem_real": "/conquistas/easter_egg.png"
+    },
+    {
+      "id": "conq_sazonal_01",
+      "nome": "Espírito Natalino",
+      "descricao": "Participou da sessão especial de Natal.",
+      "imagem": "/conquistas/natal_2024.png",
+      "tipos": [
+        "normal",
+        "sazonal"
+      ],
+      "evento": "natal"
+    },
+    {
+      "id": "conq_1774634741352",
+      "nome": "Primeiros passos",
+      "descricao": "dê deus primeiros passos, imbecil",
+      "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8gSbGFMnkjCdLSI1FOwpWNwBqTpN902xz5Q&s",
+      "tipos": [
+        "normal",
+        "progresso"
+      ],
+      "progresso_max": 1
+    }
+  ],
+  "insignias": [
+    {
+      "id": "insignia_001",
+      "nome": "Participante da Beta",
+      "imagem": "/insignias/beta_tester.png"
+    },
+    {
+      "id": "insignia_002",
+      "nome": "Primeira Sessão de 2024",
+      "imagem": "/insignias/primeira_sessao_2024.png"
+    },
+    {
+      "id": "insig_1774637495732",
+      "nome": "a",
+      "imagem": "a"
+    }
+  ],
+  "cartas": [
+    {
+      "id": "card_1774636100454",
+      "nome": "A",
+      "imagem": "A"
+    },
+    {
+      "id": "card_1774636114554",
+      "nome": "aaaaaaa",
+      "imagem": "aaaaaaaaa"
+    },
+    {
+      "id": "card_1774637496582",
+      "nome": "A",
+      "imagem": "A"
+    }
+  ],
+  "colecionaveis": [
+    {
+      "id": "col_espada_lendaria",
+      "nome": "Espada Lendária",
+      "fragmentos_necessarios": 16
+    },
+    {
+      "id": "col_escudo_dragao",
+      "nome": "Escudo de Dragão",
+      "fragmentos_necessarios": 25
+    },
+    {
+      "id": "a",
+      "nome": "a",
+      "fragmentos_necessarios": 10
+    }
+  ]
+}
